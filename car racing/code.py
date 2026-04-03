@@ -65,7 +65,7 @@ def gameLoop():
         # Collision check
         if y < obs_y + obs_h and y + car_height > obs_y:
             if x < obs_x + obs_w and x + car_width > obs_x:
-                print("💥 Crash! Game Over")
+                print(" Crash! Game Over")
                 game_exit = True
 
         # Reset obstacle
